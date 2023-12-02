@@ -25,6 +25,13 @@ pip install tensorflow numpy tensorflow-io matplotlib pyaudio pydub
 ## Introduction
 This project leverages voice command automation to provide a seamless and hands-free experience for users. By utilizing various Python libraries, including TensorFlow for machine learning and PyAudio for audio processing, this system enables users to interact with their devices using voice commands.
 
+## Dataset
+This voice command automation project utilizes the Speech Commands Dataset provided by Google. The dataset is publicly available and contains a diverse set of short voice samples in .wav format, serving as keywords or utterances of single words. These samples cover various classes and are invaluable for training and testing voice recognition models.
+
+For more details about the Speech Commands Dataset, you can refer to the official blog post by Google: [Launching the Speech Commands Dataset](https://blog.research.google/2017/08/launching-speech-commands-dataset.html).
+
+The dataset comprises thousands of samples, making it a robust resource for developing and fine-tuning voice command automation systems. It includes a range of classes, each representing a distinct word or command, contributing to the diversity and effectiveness of the voice recognition capabilities within this project.
+
 ## Uses of Voice Command Automation
 - **Automated Tasks:** Execute routine tasks by voice commands, such as opening applications, sending emails, or setting reminders.
 - **Home Automation:** Control smart home devices with voice commands, including lights, thermostats, and security systems.
